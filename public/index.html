@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People vs Coffee Clone</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./basscss.css" />
+  </head>
+  <body class="flex flex-column">
+    <div class="section justify-center">
+      <nav class="ml2 mr2">
+        <a href="/service" onclick="router(event)" class="p1">OUR SERVICES</a>
+        <a href="/mission" onclick="router(event)" class="p1">OUR MISSION</a>
+        <a href="/promise" onclick="router(event)" class="p1">OUR PROMISE</a>
+      </nav>
+      <a href="/" onclick="router(event)">
+        <img
+          class="nav-logo mt2 mb2"
+          src="assets/logo.png"
+          alt="The People Vs Coffee Logo Black"/>
+      </a>
+      <nav class="ml2 mr2">
+        <a href="/bb" onclick="router(event)" class="p1">THE BB EXPERIENCE</a>
+        <a href="/book" onclick="router(event)" class="p1">MAKE A BOOKING</a>
+      </nav>
+    </div>
+    <div id="root" class="section justify-center"></div>
+    <script src="router.js" type="text/javascript"></script>
+  </body>
+</html>
